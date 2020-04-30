@@ -14,6 +14,8 @@
 		223D5F12245B05970002E25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223D5F11245B05970002E25C /* Assets.xcassets */; };
 		223D5F15245B05970002E25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223D5F13245B05970002E25C /* LaunchScreen.storyboard */; };
 		223D5F20245B05970002E25C /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D5F1F245B05970002E25C /* testTests.swift */; };
+		223D5F2B245B05E00002E25C /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D5F2A245B05E00002E25C /* APIClientTests.swift */; };
+		223D5F2D245B061C0002E25C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D5F2C245B061C0002E25C /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		223D5F1B245B05970002E25C /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		223D5F1F245B05970002E25C /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		223D5F21245B05970002E25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223D5F2A245B05E00002E25C /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		223D5F2C245B061C0002E25C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				223D5F11245B05970002E25C /* Assets.xcassets */,
 				223D5F13245B05970002E25C /* LaunchScreen.storyboard */,
 				223D5F16245B05970002E25C /* Info.plist */,
+				223D5F2C245B061C0002E25C /* APIClient.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				223D5F1F245B05970002E25C /* testTests.swift */,
 				223D5F21245B05970002E25C /* Info.plist */,
+				223D5F2A245B05E00002E25C /* APIClientTests.swift */,
 			);
 			path = testTests;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				223D5F0D245B05900002E25C /* ViewController.swift in Sources */,
 				223D5F09245B05900002E25C /* AppDelegate.swift in Sources */,
 				223D5F0B245B05900002E25C /* SceneDelegate.swift in Sources */,
+				223D5F2D245B061C0002E25C /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				223D5F20245B05970002E25C /* testTests.swift in Sources */,
+				223D5F2B245B05E00002E25C /* APIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
